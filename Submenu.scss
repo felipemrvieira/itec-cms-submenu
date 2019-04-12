@@ -1,0 +1,57 @@
+@media only screen and (min-width: 900px) {
+    #nav-secundaria{
+        background-color: #F8F7F7;
+        padding: 0;
+        .navbar-collapse{
+            .navbar-nav{
+                
+                .nav-item{
+                    .nav-link{
+                        padding: 12px 24px 12px 0;
+                        color: #005DA6;
+                        text-decoration: none;
+                        text-decoration-line: none;
+                        text-decoration-style: initial;
+                        text-decoration-color: initial;
+                        font-family: 'Open Sans',Helvetica,Arial,Sans-Serif;
+                        font-size: 18px;
+                    }
+                }
+            }
+            #nav-social{
+                .nav-social-icon{
+                    width: 28px;
+                    height: 28px;
+                    margin-left: 5px;
+                    float: right;
+                    cursor: pointer;
+                    // background: #F8F7F7 url(../images/sprites.png) no-repeat;
+                    background-size : 1010%;
+
+                }
+                #nav-eouv{
+                    background-position: 85% 23%;
+                }
+                #nav-info{
+                    background-position: 96% 23%;
+                }
+                #nav-twitter{
+                    background-position: 73% 23%;
+                }
+                #nav-youtube{
+                    background-position: 61.5% 23%;
+                }
+                #nav-facebook{
+                    background-position: 5% 23%;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    #nav-secundaria{
+        display: none;        
+    }
+}
